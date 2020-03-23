@@ -28,7 +28,7 @@ export function FooUseEffect() {
             <h1>{count}</h1>
             <input value={delay} onChange={handleDelayChange} />
             <p>You clicked {count} times</p>
-            <button onClick={() => setCount(count + 1)}> Click me </button>
+            <button onClick={() => setCount(count + 1)}> Click me to increase counter </button>
         </div>
     );
 }
